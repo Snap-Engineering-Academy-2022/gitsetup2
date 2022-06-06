@@ -110,10 +110,4 @@ git branch -d YOUR_BRANCH_NAME_new_feature # delete the feature branch now that 
 
 ## ➡️ Pull Requests and Code Reviews
 
-See your Pull Request on GitHub
-Add a link to your webpage on the main index.html. Commit the change.
-Push again, and see your PR update
-Add your partner as a “reviewer” (and vice versa)
-Review your partners code, trying making some comments, and eventually “accept” your partner’s changes (and vice versa)
-Try to merge back into the main branch. Probably there will be a merge conflict on index.html. Resolve it in the web interface and complete the merge.
-
+[Follow along in the slides here!](https://docs.google.com/presentation/d/1sizTXbGXHQ_p8JIxlswmzoA1qZYOVvADwcNhXsQIgzk/edit#slide=id.g13136ca5fd0_2_139)
