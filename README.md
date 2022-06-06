@@ -37,7 +37,9 @@ We're basically going to repeat the above. However this time, before attempting 
 
 1. Go to a personal repo on the command line. Head to the main branch first. 
 
-```git checkout main```
+```
+git checkout main
+```
 
 2. Create a new branch off of your existing main branch using 
 ```git checkout -b newbranch```
