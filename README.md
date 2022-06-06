@@ -1,4 +1,4 @@
-# gitsetup2
+# Let's Git It Part 2: Merges and Pull Requests
 
 ## ➡️ Becoming Merge Maestros 
 #### Merge without conflicts
