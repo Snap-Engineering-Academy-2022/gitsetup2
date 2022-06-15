@@ -4,7 +4,7 @@
 #### Merge without conflicts
 1. Go to any of your repos (a personal one, or the classwebsite) on the command line. 
 2. Create a new branch off of your existing main branch using 
-```git checkout -b newbranch```
+```git checkout -b YOURNAME-newbranch```
 
 4. Change one (or more) lines of code on the new branch, and add, commit
 ```
@@ -14,18 +14,18 @@ git log #use this to look at the log and see your new commit at the top
 ```
 4. Go back to the main branch. 
 ```
-git checkout main #this switches back to your original branch
+git checkout YOUR_FIRST_BRANCH_NAME #this switches back to your original branch
 git log #use this to look at the log and see that your new commit ISN'T THERE
 ```
 5. MERGE. Use git merge to bring in the changes from the newbranch into the main branch. 
 
 ```
-git merge newbranch # this is the merge! it will bring in the new commit
+git merge YOURNAME-newbranch # this is the merge! it will bring in the new commit
 git log #use this to look at the log and see that your new commit is now here 
 ```
 6. Delete your newbranch since all of its new code has now been merged into main. 
 ```
-git branch -d newbranch 
+git branch -d YOURNAME-newbranch 
 ```
 7. You should see that the main branch is updated with the changes merged in from newbranch!
 
@@ -42,7 +42,7 @@ git checkout main
 ```
 
 2. Create a new branch off of your existing main branch using 
-```git checkout -b newbranch```
+```git checkout -b YOURNAME-newbranch```
 
 3. Now make some changes to a file. Then add and commit. 
 
@@ -56,7 +56,7 @@ git log # look at the log, see your new commit at the top
 
 4. Now switch back to the original branch. 
 ```
-git checkout main 
+git checkout YOUR_FIRST_BRANCH_NAME 
 git log # look at the log, see that your new commit isn't there
 ```
 
@@ -73,7 +73,7 @@ git log # look at the log, see your new commit at the top
 6. Try to merge your changes from `newbranch` into `main` now. 
 
 ```
-git merge newbranch # this is the merge! but there's about to be a problem...
+git merge YOURNAME-newbranch # this is the merge! but there's about to be a problem...
 ```
 
 7. Resolve the conflict, and complete the merge.
@@ -88,7 +88,7 @@ The conflict might look like this, for example:
 color: brown;
 =======
 color: black;
->>>>>>> YOUR_BRANCH_NAME_new_feature
+>>>>>>> YOURNAME-newbranch
 `
 # in order to "resolve" the conflict, you have to remove all the << >> == stuff
 # and combine/choose the code you want.
@@ -106,7 +106,7 @@ git commit -m "Fixed merge conflict"
 
 git log # look at the log, see the merge commit at the top
 
-git branch -d YOUR_BRANCH_NAME_new_feature # delete the feature branch now that it is merged in
+git branch -d YOURNAME-newbranch # delete the feature branch now that it is merged in
 ```
 
 
