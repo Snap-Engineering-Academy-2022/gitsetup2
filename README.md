@@ -2,7 +2,7 @@
 
 ## ➡️ Becoming Merge Maestros 
 #### Merge without conflicts
-1. Go to a personal repo on the command line. 
+1. Go to any repo on the command line. 
 2. Create a new branch off of your existing main branch using 
 ```git checkout -b newbranch```
 
